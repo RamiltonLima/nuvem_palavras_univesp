@@ -2,7 +2,7 @@
 # pouca memória e o processamento é síncrono: um arquivo desses derrubaria o app.
 # 10 MB já é um .txt de milhões de palavras.
 [server]
-maxUploadSize = 10
+maxUploadSize = 200
 
 [browser]
 gatherUsageStats = false
