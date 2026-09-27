@@ -1,0 +1,8 @@
+# O padrão do Streamlit é 200 MB por upload. No Community Cloud o container tem
+# pouca memória e o processamento é síncrono: um arquivo desses derrubaria o app.
+# 10 MB já é um .txt de milhões de palavras.
+[server]
+maxUploadSize = 10
+
+[browser]
+gatherUsageStats = false
